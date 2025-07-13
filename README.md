@@ -21,7 +21,7 @@ A web-based Jack language compiler that converts Jack code to VM code using Fast
 
 2. **Install dependencies**:
    ```bash
-   pip install -r 
+   pip install -r requirements.txt
    ```
 ## 🚀 Running the Application
 
