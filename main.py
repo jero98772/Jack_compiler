@@ -11,7 +11,7 @@ from tools.jackcompiler import JackTokenizer, CompilationEngine
 app = FastAPI(title="Jack Compiler API", version="1.0.0")
 
 # Mount static files
-app.mount("/static", StaticFiles(directory="static"), name="static")
+#app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Templates
 templates = Jinja2Templates(directory="templates")
